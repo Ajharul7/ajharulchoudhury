@@ -12,6 +12,7 @@ const corsOptions = {
 };
 
 mongoose.Promise = global.Promise;
+//dummy account for testing purpose
 mongoose.connect(
   "mongodb+srv://ajharul7:ajharul1234@cluster0.c94fagc.mongodb.net/?retryWrites=true&w=majority"
 );
